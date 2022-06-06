@@ -1,0 +1,58 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+   }
+    html {
+       background-color: #F8F9F9;
+       background: linear-gradient(0deg, #f9f8f8 0%, #f9f8f8 80%, #0d7aa4 80%, #0d7aa4 100%);
+       padding: 30px;
+       height: 91vh;
+   }
+   .container {
+       background-color: #fff;
+       width: 70%;
+       height: 80vh;
+       padding: 30px;
+       margin: 6% auto;
+       box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+   }
+   input,select {
+       width: 80%;
+       margin-top: 20px;
+       border: none;
+       height: 6vh;
+       border-radius: 16px;
+       box-shadow: 0 0 12px 4px rgba(0,0,0,0.06);
+
+   }
+   input,textarea,select {
+       outline: 0;
+   }
+   input:focus {
+       border: 1px solid #c6c7c7;;
+   }
+   select {
+       appearance: none;
+       background-image: linear-gradient(45deg, transparent 50%, #c7c9cb 50%), linear-gradient(135deg, #c7c9cb 50%, transparent 50%), linear-gradient(to right, #dfe0e0, #dfe0e0);
+       background-position: calc(100% - 20px) 20px, calc(100% - 15px) 20px, calc(100% - 40px) 10px;
+       background-size: 5px 5px, 5px 5px, 1px 25px;
+       background-repeat: no-repeat;
+   }
+   select option:first-child {
+    display: none;
+   }
+
+   label {
+       padding: 10px;
+   }
+   .form-group {
+       margin: auto;   
+   }
+   input[type="submit"] {
+       width: 40%;
+       margin: 4% 30%;
+       background: #0d70c0;
+   }
+   input[type="submit"]:hover {
+       background: lightgray;
+       cursor: pointer;
+   }
